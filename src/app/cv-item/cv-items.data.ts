@@ -72,7 +72,7 @@ export const PROJECTS: CvItem[] = [
 
 ];
 
-/* export const VOLUNTEERING: CvItem[] = [
+export const VOLUNTEERING: CvItem[] = [
   {
     title: 'DFB cup finals & international matches',
     subtitle: 'Admission, visitor services, VIP support, stand-by man, special tasks',
@@ -83,7 +83,7 @@ export const PROJECTS: CvItem[] = [
     thumbnail: 'DFB-Logo.jpg',
   },
 
-]; */
+];
 
 export const CONTACT = {
   city: 'Nijmegen, Netherlands',
@@ -101,16 +101,16 @@ export const CONTACT = {
   ],
 };
 
-/* export const INTERESTS = [
+export const INTERESTS = [
   {
     title: 'Basketball',
     subtitle: '2000 — 2013',
     icon: 'rowing'
   },
 
-]; */
+];
 
-/* export const PUBLICATIONS: CvItem[] = [
+export const PUBLICATIONS: CvItem[] = [
   {
     title: 'Tear down this wall! - Overcoming collaboration obstacles on your DevOps journey',
     subtitle: 'Article published on Medium / MakeItNew.io',
@@ -123,9 +123,9 @@ export const CONTACT = {
     thumbnail: 'Medium_MakeItNew.png',
     attachment: 'tear-down-this-wall.pdf',
   },
-]; */
+];
 
-/* export const TALKS: CvItem[] = [
+export const TALKS: CvItem[] = [
   {
     title: 'Bringing a complex stack to the cloud, our journey and lessons learned',
     subtitle: '45 min. @ AWS Startup Day Berlin 2018',
@@ -169,4 +169,4 @@ export const CONTACT = {
     link: 'https://www.youtube.com/watch?v=KWw0H__mtxI',
     thumbnail: 'code-talks-commerce.png',
   },
-]; */
+];
