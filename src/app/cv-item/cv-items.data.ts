@@ -89,7 +89,7 @@ export const CONTACT = {
   phone: '',
   mail: 'mehmetakifberber@gmail.com',
   skype: '', // just the account name
-  linkedin: 'https://www.linkedin.com/in/berber-akif/',
+  linkedin: 'https://www.linkedin.com/in/akif-berber/',
   xing: '',
   github: '',
   stackoverflow: '',
