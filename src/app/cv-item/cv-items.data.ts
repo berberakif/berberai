@@ -105,7 +105,7 @@ export const INTERESTS = [
   {
     title: 'Basketball',
     subtitle: '2000 — 2013',
-    icon: 'rowing'
+    icon: 'basketball'
   },
 
 ];
