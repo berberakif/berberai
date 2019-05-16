@@ -1,0 +1,33 @@
+<mat-card class="text-card">
+  <img src="assets/img/AngularCV.png" width="150px" alt="AngularCV Logo"/>
+  <mat-card-title>{{l10n.about.title}}</mat-card-title>
+  <mat-card-subtitle>{{l10n.about.subtitle}}</mat-card-subtitle>
+  <mat-card-content>
+    <p>
+      {{l10n.about.content}}
+    </p>
+    <mat-chip-list selectable="false">
+      <mat-chip>Angular</mat-chip>
+      <mat-chip>Material Design</mat-chip>
+      <mat-chip>GitHub</mat-chip>
+      <mat-chip>CSS</mat-chip>
+      <mat-chip>TypeScript</mat-chip>
+      <mat-chip>JetBrains WebStorm</mat-chip>
+      <mat-chip>AWS</mat-chip>
+    </mat-chip-list>
+    <br>
+    <p>{{l10n.about.additional}}</p>
+    <mat-chip-list selectable="false">
+      <mat-chip>IcoMoon icon font</mat-chip>
+      <mat-chip>Roboto font</mat-chip>
+      <mat-chip>Roboto Slab font</mat-chip>
+      <mat-chip>jsPDF</mat-chip>
+    </mat-chip-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button color="primary" href="https://github.com/StegSchreck/AngularCV" target="_blank">
+      <i class="icon-github"></i>
+      {{l10n.about.link_to_github}}
+    </a>
+  </mat-card-actions>
+</mat-card>
