@@ -111,7 +111,7 @@ export const INTERESTS = [
 ];
 
 export const PUBLICATIONS: CvItem[] = [
-  {
+ /*  {
     title: 'Tear down this wall! - Overcoming collaboration obstacles on your DevOps journey',
     subtitle: 'Article published on Medium / MakeItNew.io',
     begin: '',
@@ -122,7 +122,7 @@ export const PUBLICATIONS: CvItem[] = [
     link: 'https://makeitnew.io/tear-down-this-wall-c2211141fdb5',
     thumbnail: 'Medium_MakeItNew.png',
     attachment: 'tear-down-this-wall.pdf',
-  },
+  }, */
 ];
 
 export const TALKS: CvItem[] = [
