@@ -97,7 +97,7 @@ export const EDUCATION: CvItem[] = [
     description: '',
     tags: [''],
     link: 'http://psi.hacettepe.edu.tr',
-    thumbnail: 'hacettepe.jpg',
+    thumbnail: 'hacettepe.png',
   },
 
 ];
