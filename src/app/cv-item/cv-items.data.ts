@@ -47,7 +47,7 @@ export const CVITEMS: CvItem[] = [
     description: '',
     tags: [],
     link: 'https://www.hvkk.tsk.tr/en-us/',
-    thumbnail: '8US.png',
+    thumbnail: 'sekizus.png',
   },
 
 ];
