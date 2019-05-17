@@ -2,7 +2,7 @@ import { CvItem } from './cv-item';
 
 
 export const GENERAL = {
-  name: 'Akif Berber',
+  name: 'AKİF BERBER',
   position: 'Software Engineer',
   description: 'This is my personal website to represent my technical skills briefly'
 };
