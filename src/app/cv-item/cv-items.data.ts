@@ -19,6 +19,37 @@ export const CVITEMS: CvItem[] = [
     thumbnail: 'ordina.jpg',
   },
 
+  {
+    title: 'Clothes2.me',
+    subtitle: 'Data Scientist / Researcher',
+    begin: '2017-10',
+    end: '2018-10',
+    description: '',
+    tags: [],
+    link: 'https://www.clothes2.me',
+    thumbnail: 'clothes2me.jpg',
+  },
+  {
+    title: 'Turkish Atomic Energy Authority',
+    subtitle: 'Developer',
+    begin: '2010-01',
+    end: '2016-08',
+    description: '',
+    tags: [],
+    link: 'https://www.taek.gov.tr',
+    thumbnail: 'taek.png',
+  },
+  {
+    title: 'Turkish Air Force',
+    subtitle: 'Developer',
+    begin: '2008-12',
+    end: '2009-11',
+    description: '',
+    tags: [],
+    link: 'https://www.hvkk.tsk.tr/en-us/',
+    thumbnail: '8US.png',
+  },
+
 ];
 
 export const CERTIFICATES: CvItem[] = [
@@ -29,7 +60,7 @@ export const CERTIFICATES: CvItem[] = [
     end: '2011',
     description: '',
     link: '',
-    thumbnail: 'ibm.jpg',
+    thumbnail: 'db2.png',
     attachment: '',
   },
 
@@ -39,12 +70,34 @@ export const EDUCATION: CvItem[] = [
   {
     title: 'Radboud University',
     subtitle: 'Master/s AI',
-    begin: '2016-09',
-    end: '2018-08',
+    begin: '2016',
+    end: '2018',
     description: '',
     tags: ['AI', 'Robot Cognition'],
     link: 'http://ru.nl',
     thumbnail: 'radboud.jpg',
+  },
+
+  {
+    title: 'Hacettepe University',
+    subtitle: 'Computer Science Engineering',
+    begin: '2004',
+    end: '2008',
+    description: '',
+    tags: ['C', 'C++', 'JAVA', 'SQL'],
+    link: 'http://cs.hacettepe.edu.tr',
+    thumbnail: 'hacettepecs.jpg',
+  },
+
+  {
+    title: 'Hacettepe University',
+    subtitle: 'Psychology',
+    begin: '2012',
+    end: '2016',
+    description: '',
+    tags: [''],
+    link: 'http://psi.hacettepe.edu.tr',
+    thumbnail: 'hacettepe.jpg',
   },
 
 ];
@@ -73,13 +126,13 @@ export const PROJECTS: CvItem[] = [
 
 export const VOLUNTEERING: CvItem[] = [
   {
-    title: '',
-    subtitle: '',
-    begin: '2007',
-    end: '2016',
+    title: 'Batouwe Bemmel Basketball',
+    subtitle: 'Youth Coach',
+    begin: '2017',
+    end: '',
     description: '',
     link: '',
-    thumbnail: '',
+    thumbnail: 'batouwe.jpg',
   },
 
 ];
