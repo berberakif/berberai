@@ -42,7 +42,7 @@ export const EDUCATION: CvItem[] = [
     begin: '2016-09',
     end: '2018-08',
     description: '',
-    tags: ['Scrum', 'SVN', 'Git', 'Java', 'eclipse', 'Maven'],
+    tags: ['AI', 'Robot Cognition'],
     link: 'http://ru.nl',
     thumbnail: 'radboud.jpg',
   },
