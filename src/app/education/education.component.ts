@@ -13,6 +13,7 @@ export class EducationComponent implements OnInit {
   l10n;
   educationItems: CvItem[];
   certificationItems: CvItem[];
+  courseItems;
   languageItems;
   title = 'Education and Certificates';
 
@@ -35,6 +36,9 @@ export class EducationComponent implements OnInit {
     this.cvItemService
       .getLanguageItems()
       .then(items => this.languageItems = items);
+    this.cvItemService
+      .getCourseItems()
+      .then(items => this.courseItems = items);
   }
 
   ngOnInit() {

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { Router, NavigationEnd } from '@angular/router';
-
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
 import { CvItemService } from './cv-item/cv-item.service';
 
 @Component({
@@ -15,8 +16,18 @@ export class AppComponent {
   public constructor(
     private cvItemService: CvItemService,
     private titleService: Title,
-    private router: Router
+    private router: Router,
+    private matIconRegistry: MatIconRegistry,
+    private domSanitizer: DomSanitizer
   ) {
+    this.matIconRegistry.addSvgIcon(
+      'basketball',
+      'basketball.svg'
+    );
+    this.matIconRegistry.addSvgIcon(
+      "basketball",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/material-icons/basketball.svg")
+    );
     this.getItems();
     this.setTitle(this.generalData.name + ' | ' + this.generalData.position);
 

@@ -29,6 +29,7 @@ export const L10N = {
       title_languages: 'Languages',
       title_certificates: 'Certificates',
       title_education: 'Education',
+      title_courses: 'Courses',
     },
     experience: {
       title: 'Professional Experience',

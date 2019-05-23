@@ -102,6 +102,20 @@ export const EDUCATION: CvItem[] = [
 
 ];
 
+export const COURSES = [
+  {
+    title: 'Angular & NodeJS - The MEAN Stack Guide',
+    subtitle: 'UDEMY',
+    begin: '2019',
+    end: '2019',
+    description: '',
+    tags: ['MongoDB', 'Express', 'Angular', 'NodeJS'],
+    link: 'https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/',
+    thumbnail: 'udemy.jpg',
+  },
+
+];
+
 export const LANGUAGES = [
   // RATE YOURSELF  =>  100% = NATIVE;  80-99% = FLUENT;  60-79% = ADVANCED;  40-59% = INTERMEDIATE;  20-39% = ELEMENTARY;  0-19% = BEGINNER
   { title: 'Turkish', level: '100' },
@@ -157,7 +171,8 @@ export const INTERESTS = [
   {
     title: 'Basketball',
     subtitle: '2000 — 2013',
-    icon: 'rowing'
+    icon: '',
+    svg_icon: 'basketball'
   },
 
 ];

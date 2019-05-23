@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { CvItem } from './cv-item';
-import { GENERAL, CVITEMS, CERTIFICATES, EDUCATION, PROJECTS, VOLUNTEERING, LANGUAGES, CONTACT, INTERESTS, PUBLICATIONS, TALKS } from './cv-items.data';
+import { GENERAL, CVITEMS, CERTIFICATES, EDUCATION, PROJECTS, VOLUNTEERING, LANGUAGES, CONTACT, INTERESTS, PUBLICATIONS, TALKS, COURSES } from './cv-items.data';
 
 @Injectable()
 export class CvItemService {
@@ -34,6 +34,10 @@ export class CvItemService {
 
   getLanguageItems() {
     return Promise.resolve(LANGUAGES);
+  }
+
+  getCourseItems() {
+    return Promise.resolve(COURSES);
   }
 
   getContactItems() {
