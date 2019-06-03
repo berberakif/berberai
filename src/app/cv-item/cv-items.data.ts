@@ -113,6 +113,26 @@ export const COURSES = [
     link: 'https://www.udemy.com/angular-2-and-nodejs-the-practical-guide/',
     thumbnail: 'udemy.jpg',
   },
+  {
+    title: 'Hands on Big Data with Apache Hadoop, Python and HDInsight',
+    subtitle: 'UDEMY',
+    begin: '2019',
+    end: '2019',
+    description: '',
+    tags: ['Hadoop', 'Python', 'HDInsight'],
+    link: 'https://www.udemy.com/learn-big-data-on-cloud-using-azure-hdinsight-course/',
+    thumbnail: 'udemy.jpg',
+  },
+  {
+    title: 'Learn DevOps: Continuously Deliver Better Software using Jenkings, Ansible, Kubernetes, Dockers',
+    subtitle: 'UDEMY',
+    begin: '2019',
+    end: '2019',
+    description: '',
+    tags: ['Jenkins', 'Ansible', 'Kubernetes', 'Dockers'],
+    link: 'https://www.udemy.com/learn-devops-continuously-deliver-better-software/',
+    thumbnail: 'udemy.jpg',
+  },
 
 ];
 
