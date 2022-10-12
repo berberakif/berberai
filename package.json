@@ -27,7 +27,7 @@
     "angular-in-memory-web-api": "^0.8.0",
     "angular-material": "^1.1.18",
     "core-js": "^2.6.5",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.5.1",
     "material-design-icons": "^3.0.1",
     "rxjs": "^6.5.2",
     "zone.js": "^0.9.1"
